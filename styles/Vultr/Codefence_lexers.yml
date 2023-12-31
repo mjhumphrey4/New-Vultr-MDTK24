@@ -1,0 +1,16 @@
+---
+# Portions of this toolkit are modifications based on work created and shared by Google and 
+# used according to terms described in the Creative Commons 4.0 Attribution License.
+# https://developers.google.com/terms/site-policies
+# link: 'https://developers.google.com/style/exclamation-points'
+#
+# This rule uses a regex statement that checks for the availablity of lexers at the opening of each code fence, if missing, a warning is displayed.
+#
+extends: existence
+message: "Please use code fence lexers to identify the language in your code blocks"
+link: https://www.vultr.com/docs/vultr-docs-style-guide
+level: warning
+scope: raw
+nonword: true
+tokens:
+  - '```\s*(?!\w)[^`\n]*\s*```'

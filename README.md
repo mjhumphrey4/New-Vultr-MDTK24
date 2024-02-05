@@ -30,5 +30,5 @@ Vultr Markdown Toolkit (Vultr MDTK) is a helpful aid for creators who write cont
 
     ![VSCode Example](templates/media/VSCode%20Example.png)
 
-> ![NOTE]
-> This README File is in Draft mode and it will be changed to an easy to follow guide in the first week of January 2024.
+> [!NOTE]
+> Draft mode, pending team suggestions to apply new changes

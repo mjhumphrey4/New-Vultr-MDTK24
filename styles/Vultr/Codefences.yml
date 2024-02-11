@@ -7,7 +7,7 @@
 # This rule checks for the indent type on all code blocks and returns an error if the user has not applied code fencing.
 #
 extends: existence
-message: "Please use code fences instead of indenting your code blocks with 8 or more spaces."
+message: "Please use code fences instead of indenting your code blocks"
 link: https://www.vultr.com/docs/vultr-docs-style-guide
 level: error
 scope: raw

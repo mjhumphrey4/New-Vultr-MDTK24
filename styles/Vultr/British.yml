@@ -32,7 +32,9 @@ swap:
   civilisation: civilization
   civilise: civilize
   colour: color
+  catalogue: catalog 
   cosy: cozy
+  customise: customize
   cypher: cipher
   dependant: dependent
   defence: defense
@@ -43,8 +45,8 @@ swap:
   enrol: enroll
   enrolment: enrollment
   enthral: enthrall
-  # equalled: equaled // Under discussion
-  # equalling: equaling // Under discussion
+  equalled: equaled 
+  equalling: equaling 
   favourite: favorite
   fibre: fiber
   fillet: filet
@@ -67,6 +69,7 @@ swap:
   licence: license
   likeable: likable
   liveable: livable
+  localisation: localization
   lustre: luster
   manoeuvre: maneuver
   marvellous: marvelous
@@ -78,12 +81,15 @@ swap:
   neighbour: neighbor
   normalise: normalize
   offence: offense
+  optimise: optimize
   organise: organize
+  organisation: organization
   orientated: oriented
   paralyse: paralyze
   plough: plow
   pretence: pretense
   programme: program
+  programmeur: programmer
   pyjamas: pajamas
   rateable: ratable
   realise: realize

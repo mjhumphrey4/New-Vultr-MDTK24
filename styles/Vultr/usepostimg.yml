@@ -9,7 +9,7 @@
 extends: existence
 message: "Please use Postimg instead of Imgur for image links"
 link: https://www.vultr.com/docs/vultr-docs-style-guide
-level: suggestion
+level: warning
 nonword: true
 scope: raw
 tokens:

@@ -1,0 +1,19 @@
+---
+# Portions of this toolkit are modifications based on work created and shared by Google and 
+# used according to terms described in the Creative Commons 4.0 Attribution License.
+# https://developers.google.com/terms/site-policies
+# link: 'https://developers.google.com/style/exclamation-points'
+#
+# This rule checks for the indent type on all code blocks and returns an error if the user has not applied code fencing.
+#
+extends: existence
+message: "Please include a language lexer after your starting code fence tag ```"
+link: https://www.vultr.com/docs/vultr-docs-style-guide
+level: error
+scope: raw
+nonword: true
+tokens:
+  - '```\s*\n' #forgives the closing code fence
+  #- '```\s*$' #captures the closing code fence
+
+

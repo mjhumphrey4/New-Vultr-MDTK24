@@ -7,9 +7,9 @@
 # This rule checks for the indent type on all code blocks and returns an error if the user has not applied code fencing.
 #
 extends: existence
-message: "Please include a language lexer after your starting code fence tag ```"
+message: "Please add a language lexer after your starting code fence tag ```. Please ignore if you're displaying command outputs."
 link: https://www.vultr.com/docs/vultr-docs-style-guide
-level: error
+level: warning
 scope: raw
 nonword: true
 tokens:

@@ -7,10 +7,12 @@
 # TODO: Make this rule more selective so that it 
 #
 extends: existence
-message: "Please use Postimages (postimg.cc) instead of Imgur for image links."
+message: "Please use Postimages (postimg.cc) to upload images and embed direct links."
 link: https://www.vultr.com/docs/vultr-docs-style-guide
 level: warning
 nonword: true
 scope: raw
 tokens:
   - 'imgur.com'
+  - 'ibb.com'
+  - ^(?!postimg.com$).*
